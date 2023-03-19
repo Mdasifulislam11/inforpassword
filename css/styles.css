@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bgColor: #fff;
+    --textColor: #050817;
+  }
+  
+  .dark {
+    --bgColor: #020308;
+    --textColor: #fff;
+  }
+  
+  body {
+    background-color: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8023fa;
+    transition: 0.52s;
+  }
+  
+  .wrapper {
+    display: flex;
+    font-family: arial;
+    align-items: center;
+  }
+  
+  .wrapper input {
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    padding: 0 15px;
+    font-size: 20px;
+  }
+  .input_field{
+    position: relative;
+  }
+  
+  .passwordToggler{
+    position: absolute;
+    right: 20px;
+    padding: 7px 25px;
+    display: block;
+    top: 7px;
+    border-radius: 15px;
+    border: none;
+    background: #00B4DB; 
+      color: white;
+  font-size: 16px;
+  
+  }
